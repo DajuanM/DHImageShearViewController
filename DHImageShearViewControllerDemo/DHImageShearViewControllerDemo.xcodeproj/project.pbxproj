@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163E77171F14ABF600E5D039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E77161F14ABF600E5D039 /* main.m */; };
+		163E771A1F14ABF600E5D039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E77191F14ABF600E5D039 /* AppDelegate.m */; };
+		163E771D1F14ABF600E5D039 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E771C1F14ABF600E5D039 /* ViewController.m */; };
+		163E77201F14ABF600E5D039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163E771E1F14ABF600E5D039 /* Main.storyboard */; };
+		163E77221F14ABF600E5D039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163E77211F14ABF600E5D039 /* Assets.xcassets */; };
+		163E77251F14ABF600E5D039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163E77231F14ABF600E5D039 /* LaunchScreen.storyboard */; };
+		163E77301F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E772F1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.m */; };
+		163E773B1F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E773A1F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.m */; };
+		163E774D1F14AC9200E5D039 /* DHImageShearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E774C1F14AC9200E5D039 /* DHImageShearViewController.m */; };
+		163E77521F14AD8E00E5D039 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E774F1F14AD8E00E5D039 /* UIImage+fixOrientation.m */; };
+		163E77531F14AD8E00E5D039 /* UIImage+DHShear.m in Sources */ = {isa = PBXBuildFile; fileRef = 163E77511F14AD8E00E5D039 /* UIImage+DHShear.m */; };
+		163E77551F14AF5C00E5D039 /* ChMlWVW__bqIch8cAASdcahyRvQAAINCwE5HLEABJ2J784.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 163E77541F14AF5C00E5D039 /* ChMlWVW__bqIch8cAASdcahyRvQAAINCwE5HLEABJ2J784.jpg */; };
+		BF52A222486C5040115A9298 /* libPods-DHImageShearViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 528622B62171F76909EE74CA /* libPods-DHImageShearViewControllerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		163E772C1F14ABF600E5D039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163E770A1F14ABF500E5D039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163E77111F14ABF600E5D039;
+			remoteInfo = DHImageShearViewControllerDemo;
+		};
+		163E77371F14ABF600E5D039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163E770A1F14ABF500E5D039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163E77111F14ABF600E5D039;
+			remoteInfo = DHImageShearViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163E77121F14ABF600E5D039 /* DHImageShearViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHImageShearViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		163E77161F14ABF600E5D039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163E77181F14ABF600E5D039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		163E77191F14ABF600E5D039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		163E771B1F14ABF600E5D039 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		163E771C1F14ABF600E5D039 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		163E771F1F14ABF600E5D039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		163E77211F14ABF600E5D039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163E77241F14ABF600E5D039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		163E77261F14ABF600E5D039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163E772B1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHImageShearViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		163E772F1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHImageShearViewControllerDemoTests.m; sourceTree = "<group>"; };
+		163E77311F14ABF600E5D039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163E77361F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHImageShearViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		163E773A1F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHImageShearViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		163E773C1F14ABF600E5D039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163E774B1F14AC9200E5D039 /* DHImageShearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHImageShearViewController.h; sourceTree = "<group>"; };
+		163E774C1F14AC9200E5D039 /* DHImageShearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHImageShearViewController.m; sourceTree = "<group>"; };
+		163E774E1F14AD8E00E5D039 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		163E774F1F14AD8E00E5D039 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		163E77501F14AD8E00E5D039 /* UIImage+DHShear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DHShear.h"; sourceTree = "<group>"; };
+		163E77511F14AD8E00E5D039 /* UIImage+DHShear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DHShear.m"; sourceTree = "<group>"; };
+		163E77541F14AF5C00E5D039 /* ChMlWVW__bqIch8cAASdcahyRvQAAINCwE5HLEABJ2J784.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ChMlWVW__bqIch8cAASdcahyRvQAAINCwE5HLEABJ2J784.jpg; sourceTree = "<group>"; };
+		26244696E795C5ABD8CC684E /* Pods-DHImageShearViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHImageShearViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DHImageShearViewControllerDemo/Pods-DHImageShearViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		528622B62171F76909EE74CA /* libPods-DHImageShearViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DHImageShearViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7505A43106BDA70FB75023A8 /* Pods-DHImageShearViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHImageShearViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DHImageShearViewControllerDemo/Pods-DHImageShearViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163E770F1F14ABF600E5D039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF52A222486C5040115A9298 /* libPods-DHImageShearViewControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163E77281F14ABF600E5D039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163E77331F14ABF600E5D039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163E77091F14ABF500E5D039 = {
+			isa = PBXGroup;
+			children = (
+				163E77141F14ABF600E5D039 /* DHImageShearViewControllerDemo */,
+				163E772E1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests */,
+				163E77391F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests */,
+				163E77131F14ABF600E5D039 /* Products */,
+				DF5A46E3ED4179B1A1C22131 /* Pods */,
+				90CC19974489B0E803395F2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		163E77131F14ABF600E5D039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				163E77121F14ABF600E5D039 /* DHImageShearViewControllerDemo.app */,
+				163E772B1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.xctest */,
+				163E77361F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163E77141F14ABF600E5D039 /* DHImageShearViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				163E774A1F14AC9200E5D039 /* DHImageShearViewController */,
+				163E77181F14ABF600E5D039 /* AppDelegate.h */,
+				163E77191F14ABF600E5D039 /* AppDelegate.m */,
+				163E771B1F14ABF600E5D039 /* ViewController.h */,
+				163E771C1F14ABF600E5D039 /* ViewController.m */,
+				163E77541F14AF5C00E5D039 /* ChMlWVW__bqIch8cAASdcahyRvQAAINCwE5HLEABJ2J784.jpg */,
+				163E771E1F14ABF600E5D039 /* Main.storyboard */,
+				163E77211F14ABF600E5D039 /* Assets.xcassets */,
+				163E77231F14ABF600E5D039 /* LaunchScreen.storyboard */,
+				163E77261F14ABF600E5D039 /* Info.plist */,
+				163E77151F14ABF600E5D039 /* Supporting Files */,
+			);
+			path = DHImageShearViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		163E77151F14ABF600E5D039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				163E77161F14ABF600E5D039 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		163E772E1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				163E772F1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.m */,
+				163E77311F14ABF600E5D039 /* Info.plist */,
+			);
+			path = DHImageShearViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		163E77391F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				163E773A1F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.m */,
+				163E773C1F14ABF600E5D039 /* Info.plist */,
+			);
+			path = DHImageShearViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		163E774A1F14AC9200E5D039 /* DHImageShearViewController */ = {
+			isa = PBXGroup;
+			children = (
+				163E774B1F14AC9200E5D039 /* DHImageShearViewController.h */,
+				163E774C1F14AC9200E5D039 /* DHImageShearViewController.m */,
+				163E774E1F14AD8E00E5D039 /* UIImage+fixOrientation.h */,
+				163E774F1F14AD8E00E5D039 /* UIImage+fixOrientation.m */,
+				163E77501F14AD8E00E5D039 /* UIImage+DHShear.h */,
+				163E77511F14AD8E00E5D039 /* UIImage+DHShear.m */,
+			);
+			path = DHImageShearViewController;
+			sourceTree = "<group>";
+		};
+		90CC19974489B0E803395F2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				528622B62171F76909EE74CA /* libPods-DHImageShearViewControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF5A46E3ED4179B1A1C22131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7505A43106BDA70FB75023A8 /* Pods-DHImageShearViewControllerDemo.debug.xcconfig */,
+				26244696E795C5ABD8CC684E /* Pods-DHImageShearViewControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		163E77111F14ABF600E5D039 /* DHImageShearViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163E773F1F14ABF600E5D039 /* Build configuration list for PBXNativeTarget "DHImageShearViewControllerDemo" */;
+			buildPhases = (
+				A45E636641066E022ACB1193 /* [CP] Check Pods Manifest.lock */,
+				163E770E1F14ABF600E5D039 /* Sources */,
+				163E770F1F14ABF600E5D039 /* Frameworks */,
+				163E77101F14ABF600E5D039 /* Resources */,
+				BAFDFA8FE6BE2687CB36DB01 /* [CP] Embed Pods Frameworks */,
+				6EE24808CBD1E4CA1F09F984 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHImageShearViewControllerDemo;
+			productName = DHImageShearViewControllerDemo;
+			productReference = 163E77121F14ABF600E5D039 /* DHImageShearViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		163E772A1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163E77421F14ABF600E5D039 /* Build configuration list for PBXNativeTarget "DHImageShearViewControllerDemoTests" */;
+			buildPhases = (
+				163E77271F14ABF600E5D039 /* Sources */,
+				163E77281F14ABF600E5D039 /* Frameworks */,
+				163E77291F14ABF600E5D039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163E772D1F14ABF600E5D039 /* PBXTargetDependency */,
+			);
+			name = DHImageShearViewControllerDemoTests;
+			productName = DHImageShearViewControllerDemoTests;
+			productReference = 163E772B1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		163E77351F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163E77451F14ABF600E5D039 /* Build configuration list for PBXNativeTarget "DHImageShearViewControllerDemoUITests" */;
+			buildPhases = (
+				163E77321F14ABF600E5D039 /* Sources */,
+				163E77331F14ABF600E5D039 /* Frameworks */,
+				163E77341F14ABF600E5D039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163E77381F14ABF600E5D039 /* PBXTargetDependency */,
+			);
+			name = DHImageShearViewControllerDemoUITests;
+			productName = DHImageShearViewControllerDemoUITests;
+			productReference = 163E77361F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163E770A1F14ABF500E5D039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = swartz006;
+				TargetAttributes = {
+					163E77111F14ABF600E5D039 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					163E772A1F14ABF600E5D039 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 163E77111F14ABF600E5D039;
+					};
+					163E77351F14ABF600E5D039 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 163E77111F14ABF600E5D039;
+					};
+				};
+			};
+			buildConfigurationList = 163E770D1F14ABF500E5D039 /* Build configuration list for PBXProject "DHImageShearViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163E77091F14ABF500E5D039;
+			productRefGroup = 163E77131F14ABF600E5D039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163E77111F14ABF600E5D039 /* DHImageShearViewControllerDemo */,
+				163E772A1F14ABF600E5D039 /* DHImageShearViewControllerDemoTests */,
+				163E77351F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163E77101F14ABF600E5D039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163E77251F14ABF600E5D039 /* LaunchScreen.storyboard in Resources */,
+				163E77221F14ABF600E5D039 /* Assets.xcassets in Resources */,
+				163E77551F14AF5C00E5D039 /* ChMlWVW__bqIch8cAASdcahyRvQAAINCwE5HLEABJ2J784.jpg in Resources */,
+				163E77201F14ABF600E5D039 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163E77291F14ABF600E5D039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163E77341F14ABF600E5D039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EE24808CBD1E4CA1F09F984 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHImageShearViewControllerDemo/Pods-DHImageShearViewControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A45E636641066E022ACB1193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFDFA8FE6BE2687CB36DB01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DHImageShearViewControllerDemo/Pods-DHImageShearViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		163E770E1F14ABF600E5D039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163E77531F14AD8E00E5D039 /* UIImage+DHShear.m in Sources */,
+				163E77521F14AD8E00E5D039 /* UIImage+fixOrientation.m in Sources */,
+				163E774D1F14AC9200E5D039 /* DHImageShearViewController.m in Sources */,
+				163E771D1F14ABF600E5D039 /* ViewController.m in Sources */,
+				163E771A1F14ABF600E5D039 /* AppDelegate.m in Sources */,
+				163E77171F14ABF600E5D039 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163E77271F14ABF600E5D039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163E77301F14ABF600E5D039 /* DHImageShearViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163E77321F14ABF600E5D039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163E773B1F14ABF600E5D039 /* DHImageShearViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163E772D1F14ABF600E5D039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163E77111F14ABF600E5D039 /* DHImageShearViewControllerDemo */;
+			targetProxy = 163E772C1F14ABF600E5D039 /* PBXContainerItemProxy */;
+		};
+		163E77381F14ABF600E5D039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163E77111F14ABF600E5D039 /* DHImageShearViewControllerDemo */;
+			targetProxy = 163E77371F14ABF600E5D039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		163E771E1F14ABF600E5D039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163E771F1F14ABF600E5D039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		163E77231F14ABF600E5D039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163E77241F14ABF600E5D039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		163E773D1F14ABF600E5D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		163E773E1F14ABF600E5D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163E77401F14ABF600E5D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7505A43106BDA70FB75023A8 /* Pods-DHImageShearViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHImageShearViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartz.DHImageShearViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		163E77411F14ABF600E5D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26244696E795C5ABD8CC684E /* Pods-DHImageShearViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DHImageShearViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartz.DHImageShearViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		163E77431F14ABF600E5D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHImageShearViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartz.DHImageShearViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHImageShearViewControllerDemo.app/DHImageShearViewControllerDemo";
+			};
+			name = Debug;
+		};
+		163E77441F14ABF600E5D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DHImageShearViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartz.DHImageShearViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHImageShearViewControllerDemo.app/DHImageShearViewControllerDemo";
+			};
+			name = Release;
+		};
+		163E77461F14ABF600E5D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHImageShearViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartz.DHImageShearViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHImageShearViewControllerDemo;
+			};
+			name = Debug;
+		};
+		163E77471F14ABF600E5D039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DHImageShearViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swartz.DHImageShearViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DHImageShearViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163E770D1F14ABF500E5D039 /* Build configuration list for PBXProject "DHImageShearViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163E773D1F14ABF600E5D039 /* Debug */,
+				163E773E1F14ABF600E5D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163E773F1F14ABF600E5D039 /* Build configuration list for PBXNativeTarget "DHImageShearViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163E77401F14ABF600E5D039 /* Debug */,
+				163E77411F14ABF600E5D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163E77421F14ABF600E5D039 /* Build configuration list for PBXNativeTarget "DHImageShearViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163E77431F14ABF600E5D039 /* Debug */,
+				163E77441F14ABF600E5D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163E77451F14ABF600E5D039 /* Build configuration list for PBXNativeTarget "DHImageShearViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163E77461F14ABF600E5D039 /* Debug */,
+				163E77471F14ABF600E5D039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 163E770A1F14ABF500E5D039 /* Project object */;
+}
